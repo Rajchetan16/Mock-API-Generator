@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "post_id": 1,
+      "title": "A Day in the Life of a Developer",
+      "author": {
+        "user_id": 101,
+        "name": "Jane Doe"
+      },
+      "content": "Today I debugged a complex issue...",
+      "tags": [
+        "programming",
+        "python",
+        "flask"
+      ],
+      "comments": [
+        {
+          "comment_id": 1001,
+          "comment_author": "John Smith",
+          "text": "Great post!"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "user_id": 101,
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "is_active": true
+    }
+  ]
+}
